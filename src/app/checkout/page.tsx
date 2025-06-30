@@ -75,7 +75,7 @@ export default function Checkout() {
       )
       .join('%0A');
 
-    const message = `🧾 *New Order Request*%0A%0A👤 Name: ${fullName}%0A🏠 Address: ${fullAddress}%0A📧 Email: ${email}%0A%0A📦 Order Details:%0A${productDetails}%0A💰 Total: Rs.${totalPrice}%0A%0A💳 Payment: Cash on Delivery (COD)%0A🏷 Billing: Same as shipping address%0A%0A➡️ Please type *Confirm Order* to confirm your order.`;
+    const message = `🧾 *New Order Request*%0A%0A👤 Name: ${fullName}%0A📞 Phone: ${phoneRaw}%0A🏠 Address: ${fullAddress}%0A📧 Email: ${email}%0A%0A📦 Order Details:%0A${productDetails}%0A💰 Total: Rs.${totalPrice}%0A%0A💳 Payment: Cash on Delivery (COD)%0A🏷 Billing: Same as shipping address%0A%0A➡️ Note:- "Please send this message and pick up conformation call in 24 hours".`;
 
     const whatsappLink = `https://wa.me/923221469115?text=${message}`;
 
