@@ -13,7 +13,7 @@ export default function MobileMenu() {
     { href: '/', label: 'Home' },
     { href: '/menwatches', label: "Men's Watches" },
     { href: '/womenwatches', label: "Women's Watches" },
-    { href: '/couplewatches', label: 'Couple Watches' },
+    { href: '/cuplewatches', label: 'Couple Watches' },
     { href: '/smartwatches', label: 'Smart Watches' },
     { href: '/luxurywatches', label: 'Luxury Watches' },
   ];
