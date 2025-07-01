@@ -55,7 +55,7 @@
 
 import { sanityFetch } from '@/sanity/lib/fetch';
 import { allcupleproduct } from "@/sanity/lib/queries";
-import ProductCardWithAddToCart from '../../components/cart-component/cupleProductCardWithAddToCart';
+import ProductCardWithAddToCart from '../../components/page-component/cupleProductCardWithAddToCart';
 
 type Product = {
   productName: string;
@@ -73,7 +73,7 @@ export default async function CupleWatchCollection() {
          Cuple Watches Collection
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-10">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 px-2">
         {products.map((product) => (
           <ProductCardWithAddToCart
             key={product.slug}
